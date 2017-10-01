@@ -19,10 +19,10 @@
 ### Testing
 
 **Run all Unit Tests**
-- Run phpunit command in business-card-parser directory
+- Run 'phpunit' command in business-card-parser directory
 
 **Run a specific Unit Test**
-- From business-card-parser directory, run phpunit test/{name of test}.php
+- From business-card-parser directory, run 'phpunit test/{name of test}.php'
 
 **Run Functionality Test with given examples**
-- From business-card-parser directory, navigate to the test directory, run php FunctionalityTest.php
+- From business-card-parser directory, navigate to the test directory, run 'php FunctionalityTest.php'
