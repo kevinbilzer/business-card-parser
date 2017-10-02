@@ -1,4 +1,4 @@
-# OCR Business Parser
+# OCR Business Card Parser
 **By Kevin Bilzer**
 
 ### Interface Specification
@@ -16,13 +16,22 @@
 - PHP version: 5.6.31
 - PHPUnit version: 5.7.9
 
+### Run/Build
+
+- Clone the repository
+   $ git clone git@github.com:kevinbilzer/business-card-parser.git 
+
 ### Testing
 
 **Run all Unit Tests**
 - Run 'phpunit' command in business-card-parser directory
+   $ phpunit
 
 **Run a specific Unit Test**
 - From business-card-parser directory, run 'phpunit test/{name of test}.php'
+   $ phpunit test/{name of test}
 
 **Run Functionality Test with given examples**
 - From business-card-parser directory, navigate to the test directory, run 'php FunctionalityTest.php'
+   $ cd test/
+   $ php FunctionalityTest.php
